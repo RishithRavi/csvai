@@ -1,0 +1,305 @@
+2023-08-08 21:39:38 [INFO] Question: What are all the companies in the financial sector?
+2023-08-08 21:39:38 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:39:38 [INFO] Prompt ID: 191527e3-2a3c-472c-b45d-a097f5013c84
+2023-08-08 21:39:38 [INFO] error_code=None error_message='Unrecognized request argument supplied: api_token' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-08 21:40:14 [INFO] Question: What are all the companies in the financial sector?
+2023-08-08 21:40:14 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:40:14 [INFO] Prompt ID: 61e509ca-4cd2-48c8-965c-ad328dad5484
+2023-08-08 21:40:14 [INFO] error_code=None error_message='Unrecognized request argument supplied: api_token' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-08-08 21:40:40 [INFO] Question: What are all the companies in the financial sector?
+2023-08-08 21:40:40 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:40:40 [INFO] Prompt ID: 16bb61d4-b20a-4659-9113-82cf6ce92e22
+2023-08-08 21:40:41 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials']['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:40:41 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials']['Company'].tolist()
+```
+2023-08-08 21:40:41 [INFO] Answer: ['Aflac', 'Allstate Corp', 'American Express', 'American International Group', 'Ameriprise Financial', 'Aon', 'Arthur J. Gallagher & Co.', 'Assurant', 'Bank of America', 'Berkshire Hathaway', 'BlackRock', 'BNY Mellon', 'Brown & Brown', 'Capital One Financial', 'Cboe Global Markets', 'Charles Schwab Corporation', 'Chubb', 'Cincinnati Financial', 'Citigroup', 'Citizens Financial Group', 'CME Group', 'Comerica', 'Discover Financial Services', 'Everest Re', 'Fifth Third Bancorp', 'First Republic Bank', 'Franklin Resources', 'Globe Life', 'Goldman Sachs', 'Huntington Bancshares', 'Intercontinental Exchange', 'Invesco', 'JPMorgan Chase', 'KeyCorp', 'Lincoln National', 'Loews Corporation', 'M&T Bank', 'MarketAxess', 'Marsh & McLennan', 'MetLife', "Moody's Corporation", 'Morgan Stanley', 'MSCI', 'Nasdaq', 'Northern Trust', "People's United Financial", 'PNC Financial Services', 'Principal Financial Group', 'Progressive Corporation', 'Prudential Financial', 'Raymond James Financial', 'Regions Financial Corporation', 'S&P Global', 'State Street Corporation', 'SVB Financial', 'Synchrony Financial', 'T. Rowe Price', 'The Hartford', 'The Travelers Companies', 'Truist Financial', 'U.S. Bancorp', 'W. R. Berkley Corporation', 'Wells Fargo', 'Willis Towers Watson', 'Zions Bancorp']
+2023-08-08 21:40:41 [INFO] Executed in: 0.975111722946167s
+2023-08-08 21:41:21 [INFO] Question: What are all the companies in the financial sector?
+2023-08-08 21:41:21 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:41:21 [INFO] Prompt ID: cbf883b8-f25c-4faf-9b52-d99a82c4ad3b
+2023-08-08 21:41:21 [INFO] Using cached response
+2023-08-08 21:41:21 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials']['Company'].tolist()
+```
+2023-08-08 21:41:21 [INFO] Answer: ['Aflac', 'Allstate Corp', 'American Express', 'American International Group', 'Ameriprise Financial', 'Aon', 'Arthur J. Gallagher & Co.', 'Assurant', 'Bank of America', 'Berkshire Hathaway', 'BlackRock', 'BNY Mellon', 'Brown & Brown', 'Capital One Financial', 'Cboe Global Markets', 'Charles Schwab Corporation', 'Chubb', 'Cincinnati Financial', 'Citigroup', 'Citizens Financial Group', 'CME Group', 'Comerica', 'Discover Financial Services', 'Everest Re', 'Fifth Third Bancorp', 'First Republic Bank', 'Franklin Resources', 'Globe Life', 'Goldman Sachs', 'Huntington Bancshares', 'Intercontinental Exchange', 'Invesco', 'JPMorgan Chase', 'KeyCorp', 'Lincoln National', 'Loews Corporation', 'M&T Bank', 'MarketAxess', 'Marsh & McLennan', 'MetLife', "Moody's Corporation", 'Morgan Stanley', 'MSCI', 'Nasdaq', 'Northern Trust', "People's United Financial", 'PNC Financial Services', 'Principal Financial Group', 'Progressive Corporation', 'Prudential Financial', 'Raymond James Financial', 'Regions Financial Corporation', 'S&P Global', 'State Street Corporation', 'SVB Financial', 'Synchrony Financial', 'T. Rowe Price', 'The Hartford', 'The Travelers Companies', 'Truist Financial', 'U.S. Bancorp', 'W. R. Berkley Corporation', 'Wells Fargo', 'Willis Towers Watson', 'Zions Bancorp']
+2023-08-08 21:41:21 [INFO] Executed in: 0.0010001659393310547s
+2023-08-08 21:44:44 [INFO] Question: count of records
+2023-08-08 21:44:44 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:44:44 [INFO] Prompt ID: 3a76a773-3c92-4cad-98bb-9859f832233b
+2023-08-08 21:44:45 [INFO] 
+                        Code generated:
+                        ```
+                        df.shape[0]
+                        ```
+                    
+2023-08-08 21:44:45 [INFO] 
+Code running:
+```
+df.shape[0]
+```
+2023-08-08 21:44:45 [INFO] Answer: 505
+2023-08-08 21:44:45 [INFO] Executed in: 0.9103405475616455s
+2023-08-08 21:44:57 [INFO] Question: list financial sector companies
+2023-08-08 21:44:57 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:44:57 [INFO] Prompt ID: 11b63bb9-75f6-44db-aa5e-576a17ef1340
+2023-08-08 21:44:59 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials']['Company']
+                        ```
+                    
+2023-08-08 21:44:59 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials']['Company']
+```
+2023-08-08 21:44:59 [INFO] Answer: Symbol
+AFL                            Aflac
+ALL                    Allstate Corp
+AXP                 American Express
+AIG     American International Group
+AMP             Ameriprise Financial
+                    ...             
+USB                     U.S. Bancorp
+WRB        W. R. Berkley Corporation
+WFC                      Wells Fargo
+WLTW            Willis Towers Watson
+ZION                   Zions Bancorp
+Name: Company, Length: 65, dtype: object
+2023-08-08 21:44:59 [INFO] Executed in: 2.182189464569092s
+2023-08-08 21:46:59 [INFO] Question: list all financial sector companies
+2023-08-08 21:46:59 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:46:59 [INFO] Prompt ID: 6ebfe33d-5fcd-41bf-9976-512eb257741b
+2023-08-08 21:47:00 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials']['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:47:00 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials']['Company'].tolist()
+```
+2023-08-08 21:47:00 [INFO] Answer: ['Aflac', 'Allstate Corp', 'American Express', 'American International Group', 'Ameriprise Financial', 'Aon', 'Arthur J. Gallagher & Co.', 'Assurant', 'Bank of America', 'Berkshire Hathaway', 'BlackRock', 'BNY Mellon', 'Brown & Brown', 'Capital One Financial', 'Cboe Global Markets', 'Charles Schwab Corporation', 'Chubb', 'Cincinnati Financial', 'Citigroup', 'Citizens Financial Group', 'CME Group', 'Comerica', 'Discover Financial Services', 'Everest Re', 'Fifth Third Bancorp', 'First Republic Bank', 'Franklin Resources', 'Globe Life', 'Goldman Sachs', 'Huntington Bancshares', 'Intercontinental Exchange', 'Invesco', 'JPMorgan Chase', 'KeyCorp', 'Lincoln National', 'Loews Corporation', 'M&T Bank', 'MarketAxess', 'Marsh & McLennan', 'MetLife', "Moody's Corporation", 'Morgan Stanley', 'MSCI', 'Nasdaq', 'Northern Trust', "People's United Financial", 'PNC Financial Services', 'Principal Financial Group', 'Progressive Corporation', 'Prudential Financial', 'Raymond James Financial', 'Regions Financial Corporation', 'S&P Global', 'State Street Corporation', 'SVB Financial', 'Synchrony Financial', 'T. Rowe Price', 'The Hartford', 'The Travelers Companies', 'Truist Financial', 'U.S. Bancorp', 'W. R. Berkley Corporation', 'Wells Fargo', 'Willis Towers Watson', 'Zions Bancorp']
+2023-08-08 21:47:09 [INFO] Conversational answer: 
+The financial sector includes companies such as Aflac, Allstate Corp, American Express, American International Group, Ameriprise Financial, Aon, Arthur J. Gallagher & Co., Assurant, Bank of America, Berkshire Hathaway, BlackRock, BNY Mellon, Brown & Brown, Capital One Financial, Cboe Global Markets, Charles Schwab Corporation, Chubb, Cincinnati Financial, Citigroup, Citizens Financial Group, CME Group, Comerica, Discover Financial Services, Everest Re, Fifth Third Bancorp, First Republic Bank, Franklin Resources, Globe Life, Goldman Sachs, Huntington Bancshares, Intercontinental Exchange, Invesco, JPMorgan Chase, KeyCorp, Lincoln National, Loews Corporation, M&T Bank, MarketAxess, Marsh & McLennan, MetLife, Moody's Corporation, Morgan Stanley, MSCI, Nasdaq, Northern Trust, People's United Financial, PNC Financial Services, Principal Financial Group, Progressive Corporation, Prudential Financial, Raymond James Financial, Regions Financial Corporation, S&P Global, State Street Corporation, SVB Financial, Synchrony Financial, T. Rowe Price, The Hartford, The Travelers Companies, Truist Financial, U.S. Banc
+2023-08-08 21:47:09 [INFO] Executed in: 10.176719903945923s
+2023-08-08 21:48:58 [INFO] Question: list count of records
+2023-08-08 21:48:58 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:48:58 [INFO] Prompt ID: 4b9bc659-5a2f-4576-b1b2-6776f3574ca5
+2023-08-08 21:48:59 [INFO] 
+                        Code generated:
+                        ```
+                        len(df.index)
+                        ```
+                    
+2023-08-08 21:48:59 [INFO] 
+Code running:
+```
+len(df.index)
+```
+2023-08-08 21:48:59 [INFO] Answer: 505
+2023-08-08 21:48:59 [INFO] Executed in: 0.876255989074707s
+2023-08-08 21:49:07 [INFO] Question: list count of records in financial sector
+2023-08-08 21:49:07 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:49:07 [INFO] Prompt ID: 7b61dbfe-335a-4e87-bb30-4c6675cc9267
+2023-08-08 21:49:08 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials'].shape[0]
+                        ```
+                    
+2023-08-08 21:49:08 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials'].shape[0]
+```
+2023-08-08 21:49:08 [INFO] Answer: 65
+2023-08-08 21:49:08 [INFO] Executed in: 1.6410648822784424s
+2023-08-08 21:49:20 [INFO] Question: list records in financial sector
+2023-08-08 21:49:20 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:49:20 [INFO] Prompt ID: 502dd768-5424-4e5e-b451-18184b9e24d9
+2023-08-08 21:49:21 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials'].to_string(index=False)
+                        ```
+                    
+2023-08-08 21:49:21 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials'].to_string(index=False)
+```
+2023-08-08 21:49:21 [INFO] Answer:                       Company     Sector
+                        Aflac Financials
+                Allstate Corp Financials
+             American Express Financials
+ American International Group Financials
+         Ameriprise Financial Financials
+                          Aon Financials
+    Arthur J. Gallagher & Co. Financials
+                     Assurant Financials
+              Bank of America Financials
+           Berkshire Hathaway Financials
+                    BlackRock Financials
+                   BNY Mellon Financials
+                Brown & Brown Financials
+        Capital One Financial Financials
+          Cboe Global Markets Financials
+   Charles Schwab Corporation Financials
+                        Chubb Financials
+         Cincinnati Financial Financials
+                    Citigroup Financials
+     Citizens Financial Group Financials
+                    CME Group Financials
+                     Comerica Financials
+  Discover Financial Services Financials
+                   Everest Re Financials
+          Fifth Third Bancorp Financials
+          First Republic Bank Financials
+           Franklin Resources Financials
+                   Globe Life Financials
+                Goldman Sachs Financials
+        Huntington Bancshares Financials
+    Intercontinental Exchange Financials
+                      Invesco Financials
+               JPMorgan Chase Financials
+                      KeyCorp Financials
+             Lincoln National Financials
+            Loews Corporation Financials
+                     M&T Bank Financials
+                  MarketAxess Financials
+             Marsh & McLennan Financials
+                      MetLife Financials
+          Moody's Corporation Financials
+               Morgan Stanley Financials
+                         MSCI Financials
+                       Nasdaq Financials
+               Northern Trust Financials
+    People's United Financial Financials
+       PNC Financial Services Financials
+    Principal Financial Group Financials
+      Progressive Corporation Financials
+         Prudential Financial Financials
+      Raymond James Financial Financials
+Regions Financial Corporation Financials
+                   S&P Global Financials
+     State Street Corporation Financials
+                SVB Financial Financials
+          Synchrony Financial Financials
+                T. Rowe Price Financials
+                 The Hartford Financials
+      The Travelers Companies Financials
+             Truist Financial Financials
+                 U.S. Bancorp Financials
+    W. R. Berkley Corporation Financials
+                  Wells Fargo Financials
+         Willis Towers Watson Financials
+                Zions Bancorp Financials
+2023-08-08 21:49:21 [INFO] Executed in: 1.161902904510498s
+2023-08-08 21:50:01 [INFO] Question: list records in financial sector in bullets
+2023-08-08 21:50:01 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:50:01 [INFO] Prompt ID: 478ccdcf-c329-474d-ade2-e894b3a5c5bc
+2023-08-08 21:50:02 [INFO] 
+                        Code generated:
+                        ```
+                        for index, row in df.iterrows():
+  if row['Sector'] == 'Financials':
+    print('-' + row['Company'])
+                        ```
+                    
+2023-08-08 21:50:02 [INFO] 
+Code running:
+```
+for index, row in df.iterrows():
+    if row['Sector'] == 'Financials':
+        print('-' + row['Company'])
+```
+2023-08-08 21:50:02 [INFO] Answer: -Zoetis
+2023-08-08 21:50:02 [INFO] Executed in: 1.1347920894622803s
+2023-08-08 21:50:13 [INFO] Question: list companies in financial sector
+2023-08-08 21:50:13 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:50:13 [INFO] Prompt ID: a94f9c6b-59af-44c6-8ec5-8bb3d957e8f5
+2023-08-08 21:50:14 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Financials']['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:50:14 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Financials']['Company'].tolist()
+```
+2023-08-08 21:50:14 [INFO] Answer: ['Aflac', 'Allstate Corp', 'American Express', 'American International Group', 'Ameriprise Financial', 'Aon', 'Arthur J. Gallagher & Co.', 'Assurant', 'Bank of America', 'Berkshire Hathaway', 'BlackRock', 'BNY Mellon', 'Brown & Brown', 'Capital One Financial', 'Cboe Global Markets', 'Charles Schwab Corporation', 'Chubb', 'Cincinnati Financial', 'Citigroup', 'Citizens Financial Group', 'CME Group', 'Comerica', 'Discover Financial Services', 'Everest Re', 'Fifth Third Bancorp', 'First Republic Bank', 'Franklin Resources', 'Globe Life', 'Goldman Sachs', 'Huntington Bancshares', 'Intercontinental Exchange', 'Invesco', 'JPMorgan Chase', 'KeyCorp', 'Lincoln National', 'Loews Corporation', 'M&T Bank', 'MarketAxess', 'Marsh & McLennan', 'MetLife', "Moody's Corporation", 'Morgan Stanley', 'MSCI', 'Nasdaq', 'Northern Trust', "People's United Financial", 'PNC Financial Services', 'Principal Financial Group', 'Progressive Corporation', 'Prudential Financial', 'Raymond James Financial', 'Regions Financial Corporation', 'S&P Global', 'State Street Corporation', 'SVB Financial', 'Synchrony Financial', 'T. Rowe Price', 'The Hartford', 'The Travelers Companies', 'Truist Financial', 'U.S. Bancorp', 'W. R. Berkley Corporation', 'Wells Fargo', 'Willis Towers Watson', 'Zions Bancorp']
+2023-08-08 21:50:14 [INFO] Executed in: 1.4841828346252441s
+2023-08-08 21:50:56 [INFO] Question: list companies in health care sector
+2023-08-08 21:50:56 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:50:56 [INFO] Prompt ID: 7b8273e4-28d0-419d-b9eb-3fa58de4495e
+2023-08-08 21:50:57 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Sector'] == 'Health Care']['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:50:57 [INFO] 
+Code running:
+```
+df[df['Sector'] == 'Health Care']['Company'].tolist()
+```
+2023-08-08 21:50:57 [INFO] Answer: ['Abbott Laboratories', 'AbbVie', 'Abiomed', 'Agilent Technologies', 'Align Technology', 'AmerisourceBergen', 'Amgen', 'Anthem', 'Baxter International', 'Becton Dickinson', 'Bio-Rad Laboratories', 'Bio-Techne', 'Biogen', 'Boston Scientific', 'Bristol Myers Squibb', 'Cardinal Health', 'Catalent', 'Centene Corporation', 'Cerner', 'Charles River Laboratories', 'Cigna', 'CVS Health', 'Danaher Corporation', 'DaVita', 'Dentsply Sirona', 'DexCom', 'Edwards Lifesciences', 'Eli Lilly & Co', 'Gilead Sciences', 'HCA Healthcare', 'Henry Schein', 'Hologic', 'Humana', 'Idexx Laboratories', 'Illumina', 'Incyte', 'Intuitive Surgical', 'IQVIA', 'Johnson & Johnson', 'LabCorp', 'McKesson Corporation', 'Medtronic', 'Merck & Co.', 'Mettler Toledo', 'Moderna', 'Organon & Co.', 'PerkinElmer', 'Pfizer', 'Quest Diagnostics', 'Regeneron Pharmaceuticals', 'ResMed', 'Steris', 'Stryker Corporation', 'Teleflex', 'The Cooper Companies', 'Thermo Fisher Scientific', 'UnitedHealth Group', 'Universal Health Services', 'Vertex Pharmaceuticals', 'Viatris', 'Waters Corporation', 'West Pharmaceutical Services', 'Zimmer Biomet', 'Zoetis']
+2023-08-08 21:50:57 [INFO] Executed in: 0.9197745323181152s
+2023-08-08 21:53:39 [INFO] Question: list all companies
+2023-08-08 21:53:39 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:53:39 [INFO] Prompt ID: a2d11a18-f42d-4bad-93ff-6fb885cff156
+2023-08-08 21:53:41 [INFO] 
+                        Code generated:
+                        ```
+                        df['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:53:41 [INFO] 
+Code running:
+```
+df['Company'].tolist()
+```
+2023-08-08 21:53:41 [INFO] Answer: ['3M', 'A. O. Smith', 'Abbott Laboratories', 'AbbVie', 'Abiomed', 'Accenture', 'Activision Blizzard', 'ADM', 'Adobe', 'Advance Auto Parts', 'Advanced Micro Devices', 'AES Corp', 'Aflac', 'Agilent Technologies', 'Air Products & Chemicals', 'Akamai Technologies', 'Alaska Air Group', 'Albemarle Corporation', 'Alexandria Real Estate Equities', 'Align Technology', 'Allegion', 'Alliant Energy', 'Allstate Corp', 'Alphabet (Class A)', 'Alphabet (Class C)', 'Altria Group', 'Amazon', 'Amcor', 'Ameren Corp', 'American Airlines Group', 'American Electric Power', 'American Express', 'American International Group', 'American Tower', 'American Water Works', 'Ameriprise Financial', 'AmerisourceBergen', 'Ametek', 'Amgen', 'Amphenol', 'Analog Devices', 'Ansys', 'Anthem', 'Aon', 'APA Corporation', 'Apple', 'Applied Materials', 'Aptiv', 'Arista Networks', 'Arthur J. Gallagher & Co.', 'Assurant', 'AT&T', 'Atmos Energy', 'Autodesk', 'Automatic Data Processing', 'AutoZone', 'AvalonBay Communities', 'Avery Dennison', 'Baker Hughes', 'Ball Corp', 'Bank of America', 'Bath & Body Works Inc.', 'Baxter International', 'Becton Dickinson', 'Berkshire Hathaway', 'Best Buy', 'Bio-Rad Laboratories', 'Bio-Techne', 'Biogen', 'BlackRock', 'BNY Mellon', 'Boeing', 'Booking Holdings', 'BorgWarner', 'Boston Properties', 'Boston Scientific', 'Bristol Myers Squibb', 'Broadcom', 'Broadridge Financial Solutions', 'Brown & Brown', 'Brown–Forman', 'C. H. Robinson', 'Cadence Design Systems', 'Caesars Entertainment', 'Campbell Soup', 'Capital One Financial', 'Cardinal Health', 'CarMax', 'Carnival Corporation', 'Carrier Global', 'Catalent', 'Caterpillar', 'Cboe Global Markets', 'CBRE', 'CDW', 'Celanese', 'Centene Corporation', 'CenterPoint Energy', 'Ceridian', 'Cerner', 'CF Industries', 'Charles River Laboratories', 'Charles Schwab Corporation', 'Charter Communications', 'Chevron Corporation', 'Chipotle Mexican Grill', 'Chubb', 'Church & Dwight', 'Cigna', 'Cincinnati Financial', 'Cintas Corporation', 'Cisco Systems', 'Citigroup', 'Citizens Financial Group', 'Citrix Systems', 'Clorox', 'CME Group', 'CMS Energy', 'Coca-Cola Company', 'Cognizant Technology Solutions', 'Colgate-Palmolive', 'Comcast', 'Comerica', 'Conagra Brands', 'ConocoPhillips', 'Consolidated Edison', 'Constellation Brands', 'Copart', 'Corning', 'Corteva', 'Costco', 'Coterra', 'Crown Castle', 'CSX', 'Cummins', 'CVS Health', 'D. R. Horton', 'Danaher Corporation', 'Darden Restaurants', 'DaVita', 'Deere & Co.', 'Delta Air Lines', 'Dentsply Sirona', 'Devon Energy', 'DexCom', 'Diamondback Energy', 'Digital Realty Trust', 'Discover Financial Services', 'Discovery (Series A)', 'Discovery (Series C)', 'Dish Network', 'Dollar General', 'Dollar Tree', 'Dominion Energy', "Domino's Pizza", 'Dover Corporation', 'Dow', 'DTE Energy', 'Duke Energy', 'Duke Realty Corp', 'DuPont', 'DXC Technology', 'Eastman Chemical', 'Eaton Corporation', 'eBay', 'Ecolab', 'Edison International', 'Edwards Lifesciences', 'Electronic Arts', 'Eli Lilly & Co', 'Emerson Electric Company', 'Enphase Energy', 'Entergy', 'EOG Resources', 'Equifax', 'Equinix', 'Equity Residential', 'Essex Property Trust', 'Estée Lauder Companies', 'Etsy', 'Everest Re', 'Evergy', 'Eversource Energy', 'Exelon', 'Expedia Group', 'Expeditors', 'Extra Space Storage', 'ExxonMobil', 'F5 Networks', 'Facebook', 'Fastenal', 'Federal Realty Investment Trust', 'FedEx', 'Fidelity National Information Services', 'Fifth Third Bancorp', 'First Republic Bank', 'FirstEnergy', 'Fiserv', 'Fleetcor', 'FMC Corporation', 'Ford', 'Fortinet', 'Fortive', 'Fortune Brands Home & Security', 'Fox Corporation (Class A)', 'Fox Corporation (Class B)', 'Franklin Resources', 'Freeport-McMoRan', 'Gap', 'Garmin', 'Gartner', 'Generac Holdings', 'General Dynamics', 'General Electric', 'General Mills', 'General Motors', 'Genuine Parts', 'Gilead Sciences', 'Global Payments', 'Globe Life', 'Goldman Sachs', 'Halliburton', 'Hanesbrands', 'Hasbro', 'HCA Healthcare', 'Healthpeak Properties', 'Henry Schein', 'Hess Corporation', 'Hewlett Packard Enterprise', 'Hilton Worldwide', 'Hologic', 'Home Depot', 'Honeywell', 'Hormel', 'Host Hotels & Resorts', 'Howmet Aerospace', 'HP', 'Humana', 'Huntington Bancshares', 'Huntington Ingalls Industries', 'IBM', 'IDEX Corporation', 'Idexx Laboratories', 'IHS Markit', 'Illinois Tool Works', 'Illumina', 'Incyte', 'Ingersoll Rand', 'Intel', 'Intercontinental Exchange', 'International Flavors & Fragrances', 'International Paper', 'Interpublic Group', 'Intuit', 'Intuitive Surgical', 'Invesco', 'IPG Photonics', 'IQVIA', 'Iron Mountain', 'J. B. Hunt', 'Jack Henry & Associates', 'Jacobs Engineering Group', 'JM Smucker', 'Johnson & Johnson', 'Johnson Controls', 'JPMorgan Chase', 'Juniper Networks', 'Kansas City Southern', "Kellogg's", 'KeyCorp', 'Keysight Technologies', 'Kimberly-Clark', 'Kimco Realty', 'Kinder Morgan', 'KLA Corporation', 'Kraft Heinz', 'Kroger', 'L3Harris Technologies', 'LabCorp', 'Lam Research', 'Lamb Weston', 'Las Vegas Sands', 'Leggett & Platt', 'Leidos', 'Lennar', 'Lincoln National', 'Linde', 'Live Nation Entertainment', 'LKQ Corporation', 'Lockheed Martin', 'Loews Corporation', "Lowe's", 'Lumen Technologies', 'LyondellBasell', 'M&T Bank', 'Marathon Oil', 'Marathon Petroleum', 'MarketAxess', 'Marriott International', 'Marsh & McLennan', 'Martin Marietta Materials', 'Masco', 'Mastercard', 'Match Group', 'McCormick & Company', "McDonald's", 'McKesson Corporation', 'Medtronic', 'Merck & Co.', 'MetLife', 'Mettler Toledo', 'MGM Resorts International', 'Microchip Technology', 'Micron Technology', 'Microsoft', 'Mid-America Apartments', 'Moderna', 'Mohawk Industries', 'Molson Coors Beverage Company', 'Mondelez International', 'Monolithic Power Systems', 'Monster Beverage', "Moody's Corporation", 'Morgan Stanley', 'Motorola Solutions', 'MSCI', 'Nasdaq', 'NetApp', 'Netflix', 'Newell Brands', 'Newmont', 'News Corp (Class A)', 'News Corp (Class B)', 'NextEra Energy', 'Nielsen Holdings', 'Nike', 'NiSource', 'Norfolk Southern', 'Northern Trust', 'Northrop Grumman', 'NortonLifeLock', 'Norwegian Cruise Line Holdings', 'NRG Energy', 'Nucor', 'Nvidia', 'NVR', 'NXP', "O'Reilly Automotive", 'Occidental Petroleum', 'Old Dominion Freight Line', 'Omnicom Group', 'Oneok', 'Oracle', 'Organon & Co.', 'Otis Worldwide', 'Paccar', 'Packaging Corporation of America', 'Parker-Hannifin', 'Paychex', 'Paycom', 'PayPal', 'Penn National Gaming', 'Pentair', "People's United Financial", 'PepsiCo', 'PerkinElmer', 'Pfizer', 'Philip Morris International', 'Phillips 66', 'Pinnacle West Capital', 'Pioneer Natural Resources', 'PNC Financial Services', 'Pool Corporation', 'PPG Industries', 'PPL', 'Principal Financial Group', 'Procter & Gamble', 'Progressive Corporation', 'Prologis', 'Prudential Financial', 'PTC', 'Public Service Enterprise Group', 'Public Storage', 'PulteGroup', 'PVH', 'Qorvo', 'Qualcomm', 'Quanta Services', 'Quest Diagnostics', 'Ralph Lauren Corporation', 'Raymond James Financial', 'Raytheon Technologies', 'Realty Income Corporation', 'Regency Centers', 'Regeneron Pharmaceuticals', 'Regions Financial Corporation', 'Republic Services', 'ResMed', 'Robert Half International', 'Rockwell Automation', 'Rollins', 'Roper Technologies', 'Ross Stores', 'Royal Caribbean Group', 'S&P Global', 'Salesforce', 'SBA Communications', 'Schlumberger', 'Seagate Technology', 'Sealed Air', 'Sempra Energy', 'ServiceNow', 'Sherwin-Williams', 'Simon Property Group', 'Skyworks Solutions', 'Snap-on', 'Southern Company', 'Southwest Airlines', 'Stanley Black & Decker', 'Starbucks', 'State Street Corporation', 'Steris', 'Stryker Corporation', 'SVB Financial', 'Synchrony Financial', 'Synopsys', 'Sysco', 'T-Mobile US', 'T. Rowe Price', 'Take-Two Interactive', 'Tapestry', 'Target Corporation', 'TE Connectivity', 'Teledyne Technologies', 'Teleflex', 'Teradyne', 'Tesla', 'Texas Instruments', 'Textron', 'The Cooper Companies', 'The Hartford', 'The Hershey Company', 'The Mosaic Company', 'The Travelers Companies', 'The Walt Disney Company', 'Thermo Fisher Scientific', 'TJX Companies', 'Tractor Supply Company', 'Trane Technologies', 'TransDigm Group', 'Trimble', 'Truist Financial', 'Twitter', 'Tyler Technologies', 'Tyson Foods', 'U.S. Bancorp', 'UDR', 'Ulta Beauty', 'Under Armour (Class A)', 'Under Armour (Class C)', 'Union Pacific', 'United Airlines', 'United Parcel Service', 'United Rentals', 'UnitedHealth Group', 'Universal Health Services', 'Valero Energy', 'Ventas', 'Verisign', 'Verisk Analytics', 'Verizon Communications', 'Vertex Pharmaceuticals', 'VF Corporation', 'ViacomCBS', 'Viatris', 'Visa', 'Vornado Realty Trust', 'Vulcan Materials', 'W. R. Berkley Corporation', 'W. W. Grainger', 'Wabtec', 'Walgreens Boots Alliance', 'Walmart', 'Waste Management', 'Waters Corporation', 'WEC Energy Group', 'Wells Fargo', 'Welltower', 'West Pharmaceutical Services', 'Western Digital', 'Western Union', 'WestRock', 'Weyerhaeuser', 'Whirlpool Corporation', 'Williams Companies', 'Willis Towers Watson', 'Wynn Resorts', 'Xcel Energy', 'Xilinx', 'Xylem', 'Yum! Brands', 'Zebra Technologies', 'Zimmer Biomet', 'Zions Bancorp', 'Zoetis']
+2023-08-08 21:53:41 [INFO] Executed in: 1.267026662826538s
+2023-08-08 21:54:10 [INFO] Question: list all companies
+2023-08-08 21:54:10 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:54:10 [INFO] Prompt ID: 08eab591-2f9b-4804-a249-d7fcf7b6e40c
+2023-08-08 21:54:10 [INFO] Using cached response
+2023-08-08 21:54:10 [INFO] 
+Code running:
+```
+df['Company'].tolist()
+```
+2023-08-08 21:54:10 [INFO] Answer: ['3M', 'A. O. Smith', 'Abbott Laboratories', 'AbbVie', 'Abiomed', 'Accenture', 'Activision Blizzard', 'ADM', 'Adobe', 'Advance Auto Parts', 'Advanced Micro Devices', 'AES Corp', 'Aflac', 'Agilent Technologies', 'Air Products & Chemicals', 'Akamai Technologies', 'Alaska Air Group', 'Albemarle Corporation', 'Alexandria Real Estate Equities', 'Align Technology', 'Allegion', 'Alliant Energy', 'Allstate Corp', 'Alphabet (Class A)', 'Alphabet (Class C)', 'Altria Group', 'Amazon', 'Amcor', 'Ameren Corp', 'American Airlines Group', 'American Electric Power', 'American Express', 'American International Group', 'American Tower', 'American Water Works', 'Ameriprise Financial', 'AmerisourceBergen', 'Ametek', 'Amgen', 'Amphenol', 'Analog Devices', 'Ansys', 'Anthem', 'Aon', 'APA Corporation', 'Apple', 'Applied Materials', 'Aptiv', 'Arista Networks', 'Arthur J. Gallagher & Co.', 'Assurant', 'AT&T', 'Atmos Energy', 'Autodesk', 'Automatic Data Processing', 'AutoZone', 'AvalonBay Communities', 'Avery Dennison', 'Baker Hughes', 'Ball Corp', 'Bank of America', 'Bath & Body Works Inc.', 'Baxter International', 'Becton Dickinson', 'Berkshire Hathaway', 'Best Buy', 'Bio-Rad Laboratories', 'Bio-Techne', 'Biogen', 'BlackRock', 'BNY Mellon', 'Boeing', 'Booking Holdings', 'BorgWarner', 'Boston Properties', 'Boston Scientific', 'Bristol Myers Squibb', 'Broadcom', 'Broadridge Financial Solutions', 'Brown & Brown', 'Brown–Forman', 'C. H. Robinson', 'Cadence Design Systems', 'Caesars Entertainment', 'Campbell Soup', 'Capital One Financial', 'Cardinal Health', 'CarMax', 'Carnival Corporation', 'Carrier Global', 'Catalent', 'Caterpillar', 'Cboe Global Markets', 'CBRE', 'CDW', 'Celanese', 'Centene Corporation', 'CenterPoint Energy', 'Ceridian', 'Cerner', 'CF Industries', 'Charles River Laboratories', 'Charles Schwab Corporation', 'Charter Communications', 'Chevron Corporation', 'Chipotle Mexican Grill', 'Chubb', 'Church & Dwight', 'Cigna', 'Cincinnati Financial', 'Cintas Corporation', 'Cisco Systems', 'Citigroup', 'Citizens Financial Group', 'Citrix Systems', 'Clorox', 'CME Group', 'CMS Energy', 'Coca-Cola Company', 'Cognizant Technology Solutions', 'Colgate-Palmolive', 'Comcast', 'Comerica', 'Conagra Brands', 'ConocoPhillips', 'Consolidated Edison', 'Constellation Brands', 'Copart', 'Corning', 'Corteva', 'Costco', 'Coterra', 'Crown Castle', 'CSX', 'Cummins', 'CVS Health', 'D. R. Horton', 'Danaher Corporation', 'Darden Restaurants', 'DaVita', 'Deere & Co.', 'Delta Air Lines', 'Dentsply Sirona', 'Devon Energy', 'DexCom', 'Diamondback Energy', 'Digital Realty Trust', 'Discover Financial Services', 'Discovery (Series A)', 'Discovery (Series C)', 'Dish Network', 'Dollar General', 'Dollar Tree', 'Dominion Energy', "Domino's Pizza", 'Dover Corporation', 'Dow', 'DTE Energy', 'Duke Energy', 'Duke Realty Corp', 'DuPont', 'DXC Technology', 'Eastman Chemical', 'Eaton Corporation', 'eBay', 'Ecolab', 'Edison International', 'Edwards Lifesciences', 'Electronic Arts', 'Eli Lilly & Co', 'Emerson Electric Company', 'Enphase Energy', 'Entergy', 'EOG Resources', 'Equifax', 'Equinix', 'Equity Residential', 'Essex Property Trust', 'Estée Lauder Companies', 'Etsy', 'Everest Re', 'Evergy', 'Eversource Energy', 'Exelon', 'Expedia Group', 'Expeditors', 'Extra Space Storage', 'ExxonMobil', 'F5 Networks', 'Facebook', 'Fastenal', 'Federal Realty Investment Trust', 'FedEx', 'Fidelity National Information Services', 'Fifth Third Bancorp', 'First Republic Bank', 'FirstEnergy', 'Fiserv', 'Fleetcor', 'FMC Corporation', 'Ford', 'Fortinet', 'Fortive', 'Fortune Brands Home & Security', 'Fox Corporation (Class A)', 'Fox Corporation (Class B)', 'Franklin Resources', 'Freeport-McMoRan', 'Gap', 'Garmin', 'Gartner', 'Generac Holdings', 'General Dynamics', 'General Electric', 'General Mills', 'General Motors', 'Genuine Parts', 'Gilead Sciences', 'Global Payments', 'Globe Life', 'Goldman Sachs', 'Halliburton', 'Hanesbrands', 'Hasbro', 'HCA Healthcare', 'Healthpeak Properties', 'Henry Schein', 'Hess Corporation', 'Hewlett Packard Enterprise', 'Hilton Worldwide', 'Hologic', 'Home Depot', 'Honeywell', 'Hormel', 'Host Hotels & Resorts', 'Howmet Aerospace', 'HP', 'Humana', 'Huntington Bancshares', 'Huntington Ingalls Industries', 'IBM', 'IDEX Corporation', 'Idexx Laboratories', 'IHS Markit', 'Illinois Tool Works', 'Illumina', 'Incyte', 'Ingersoll Rand', 'Intel', 'Intercontinental Exchange', 'International Flavors & Fragrances', 'International Paper', 'Interpublic Group', 'Intuit', 'Intuitive Surgical', 'Invesco', 'IPG Photonics', 'IQVIA', 'Iron Mountain', 'J. B. Hunt', 'Jack Henry & Associates', 'Jacobs Engineering Group', 'JM Smucker', 'Johnson & Johnson', 'Johnson Controls', 'JPMorgan Chase', 'Juniper Networks', 'Kansas City Southern', "Kellogg's", 'KeyCorp', 'Keysight Technologies', 'Kimberly-Clark', 'Kimco Realty', 'Kinder Morgan', 'KLA Corporation', 'Kraft Heinz', 'Kroger', 'L3Harris Technologies', 'LabCorp', 'Lam Research', 'Lamb Weston', 'Las Vegas Sands', 'Leggett & Platt', 'Leidos', 'Lennar', 'Lincoln National', 'Linde', 'Live Nation Entertainment', 'LKQ Corporation', 'Lockheed Martin', 'Loews Corporation', "Lowe's", 'Lumen Technologies', 'LyondellBasell', 'M&T Bank', 'Marathon Oil', 'Marathon Petroleum', 'MarketAxess', 'Marriott International', 'Marsh & McLennan', 'Martin Marietta Materials', 'Masco', 'Mastercard', 'Match Group', 'McCormick & Company', "McDonald's", 'McKesson Corporation', 'Medtronic', 'Merck & Co.', 'MetLife', 'Mettler Toledo', 'MGM Resorts International', 'Microchip Technology', 'Micron Technology', 'Microsoft', 'Mid-America Apartments', 'Moderna', 'Mohawk Industries', 'Molson Coors Beverage Company', 'Mondelez International', 'Monolithic Power Systems', 'Monster Beverage', "Moody's Corporation", 'Morgan Stanley', 'Motorola Solutions', 'MSCI', 'Nasdaq', 'NetApp', 'Netflix', 'Newell Brands', 'Newmont', 'News Corp (Class A)', 'News Corp (Class B)', 'NextEra Energy', 'Nielsen Holdings', 'Nike', 'NiSource', 'Norfolk Southern', 'Northern Trust', 'Northrop Grumman', 'NortonLifeLock', 'Norwegian Cruise Line Holdings', 'NRG Energy', 'Nucor', 'Nvidia', 'NVR', 'NXP', "O'Reilly Automotive", 'Occidental Petroleum', 'Old Dominion Freight Line', 'Omnicom Group', 'Oneok', 'Oracle', 'Organon & Co.', 'Otis Worldwide', 'Paccar', 'Packaging Corporation of America', 'Parker-Hannifin', 'Paychex', 'Paycom', 'PayPal', 'Penn National Gaming', 'Pentair', "People's United Financial", 'PepsiCo', 'PerkinElmer', 'Pfizer', 'Philip Morris International', 'Phillips 66', 'Pinnacle West Capital', 'Pioneer Natural Resources', 'PNC Financial Services', 'Pool Corporation', 'PPG Industries', 'PPL', 'Principal Financial Group', 'Procter & Gamble', 'Progressive Corporation', 'Prologis', 'Prudential Financial', 'PTC', 'Public Service Enterprise Group', 'Public Storage', 'PulteGroup', 'PVH', 'Qorvo', 'Qualcomm', 'Quanta Services', 'Quest Diagnostics', 'Ralph Lauren Corporation', 'Raymond James Financial', 'Raytheon Technologies', 'Realty Income Corporation', 'Regency Centers', 'Regeneron Pharmaceuticals', 'Regions Financial Corporation', 'Republic Services', 'ResMed', 'Robert Half International', 'Rockwell Automation', 'Rollins', 'Roper Technologies', 'Ross Stores', 'Royal Caribbean Group', 'S&P Global', 'Salesforce', 'SBA Communications', 'Schlumberger', 'Seagate Technology', 'Sealed Air', 'Sempra Energy', 'ServiceNow', 'Sherwin-Williams', 'Simon Property Group', 'Skyworks Solutions', 'Snap-on', 'Southern Company', 'Southwest Airlines', 'Stanley Black & Decker', 'Starbucks', 'State Street Corporation', 'Steris', 'Stryker Corporation', 'SVB Financial', 'Synchrony Financial', 'Synopsys', 'Sysco', 'T-Mobile US', 'T. Rowe Price', 'Take-Two Interactive', 'Tapestry', 'Target Corporation', 'TE Connectivity', 'Teledyne Technologies', 'Teleflex', 'Teradyne', 'Tesla', 'Texas Instruments', 'Textron', 'The Cooper Companies', 'The Hartford', 'The Hershey Company', 'The Mosaic Company', 'The Travelers Companies', 'The Walt Disney Company', 'Thermo Fisher Scientific', 'TJX Companies', 'Tractor Supply Company', 'Trane Technologies', 'TransDigm Group', 'Trimble', 'Truist Financial', 'Twitter', 'Tyler Technologies', 'Tyson Foods', 'U.S. Bancorp', 'UDR', 'Ulta Beauty', 'Under Armour (Class A)', 'Under Armour (Class C)', 'Union Pacific', 'United Airlines', 'United Parcel Service', 'United Rentals', 'UnitedHealth Group', 'Universal Health Services', 'Valero Energy', 'Ventas', 'Verisign', 'Verisk Analytics', 'Verizon Communications', 'Vertex Pharmaceuticals', 'VF Corporation', 'ViacomCBS', 'Viatris', 'Visa', 'Vornado Realty Trust', 'Vulcan Materials', 'W. R. Berkley Corporation', 'W. W. Grainger', 'Wabtec', 'Walgreens Boots Alliance', 'Walmart', 'Waste Management', 'Waters Corporation', 'WEC Energy Group', 'Wells Fargo', 'Welltower', 'West Pharmaceutical Services', 'Western Digital', 'Western Union', 'WestRock', 'Weyerhaeuser', 'Whirlpool Corporation', 'Williams Companies', 'Willis Towers Watson', 'Wynn Resorts', 'Xcel Energy', 'Xilinx', 'Xylem', 'Yum! Brands', 'Zebra Technologies', 'Zimmer Biomet', 'Zions Bancorp', 'Zoetis']
+2023-08-08 21:54:10 [INFO] Executed in: 0.0010001659393310547s
+2023-08-08 21:55:26 [INFO] Question: list all companies that start with a
+2023-08-08 21:55:26 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 21:55:26 [INFO] Prompt ID: 1cc32eda-055c-4592-b35d-e64a0b6b4eec
+2023-08-08 21:55:27 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Company'].str.startswith('A')]['Company'].tolist()
+                        ```
+                    
+2023-08-08 21:55:27 [INFO] 
+Code running:
+```
+df[df['Company'].str.startswith('A')]['Company'].tolist()
+```
+2023-08-08 21:55:27 [INFO] Answer: ['A. O. Smith', 'Abbott Laboratories', 'AbbVie', 'Abiomed', 'Accenture', 'Activision Blizzard', 'ADM', 'Adobe', 'Advance Auto Parts', 'Advanced Micro Devices', 'AES Corp', 'Aflac', 'Agilent Technologies', 'Air Products & Chemicals', 'Akamai Technologies', 'Alaska Air Group', 'Albemarle Corporation', 'Alexandria Real Estate Equities', 'Align Technology', 'Allegion', 'Alliant Energy', 'Allstate Corp', 'Alphabet (Class A)', 'Alphabet (Class C)', 'Altria Group', 'Amazon', 'Amcor', 'Ameren Corp', 'American Airlines Group', 'American Electric Power', 'American Express', 'American International Group', 'American Tower', 'American Water Works', 'Ameriprise Financial', 'AmerisourceBergen', 'Ametek', 'Amgen', 'Amphenol', 'Analog Devices', 'Ansys', 'Anthem', 'Aon', 'APA Corporation', 'Apple', 'Applied Materials', 'Aptiv', 'Arista Networks', 'Arthur J. Gallagher & Co.', 'Assurant', 'AT&T', 'Atmos Energy', 'Autodesk', 'Automatic Data Processing', 'AutoZone', 'AvalonBay Communities', 'Avery Dennison']
+2023-08-08 21:55:27 [INFO] Executed in: 1.6002867221832275s
