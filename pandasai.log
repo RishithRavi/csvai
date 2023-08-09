@@ -303,3 +303,163 @@ df[df['Company'].str.startswith('A')]['Company'].tolist()
 ```
 2023-08-08 21:55:27 [INFO] Answer: ['A. O. Smith', 'Abbott Laboratories', 'AbbVie', 'Abiomed', 'Accenture', 'Activision Blizzard', 'ADM', 'Adobe', 'Advance Auto Parts', 'Advanced Micro Devices', 'AES Corp', 'Aflac', 'Agilent Technologies', 'Air Products & Chemicals', 'Akamai Technologies', 'Alaska Air Group', 'Albemarle Corporation', 'Alexandria Real Estate Equities', 'Align Technology', 'Allegion', 'Alliant Energy', 'Allstate Corp', 'Alphabet (Class A)', 'Alphabet (Class C)', 'Altria Group', 'Amazon', 'Amcor', 'Ameren Corp', 'American Airlines Group', 'American Electric Power', 'American Express', 'American International Group', 'American Tower', 'American Water Works', 'Ameriprise Financial', 'AmerisourceBergen', 'Ametek', 'Amgen', 'Amphenol', 'Analog Devices', 'Ansys', 'Anthem', 'Aon', 'APA Corporation', 'Apple', 'Applied Materials', 'Aptiv', 'Arista Networks', 'Arthur J. Gallagher & Co.', 'Assurant', 'AT&T', 'Atmos Energy', 'Autodesk', 'Automatic Data Processing', 'AutoZone', 'AvalonBay Communities', 'Avery Dennison']
 2023-08-08 21:55:27 [INFO] Executed in: 1.6002867221832275s
+2023-08-08 22:01:29 [INFO] Question: plot a bar chart based off of sector
+2023-08-08 22:01:29 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:01:29 [INFO] Prompt ID: 76b37b5b-488f-471d-bc3d-16b9e5ee1761
+2023-08-08 22:01:33 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+ax.bar(df['Sector'], df['Company'])
+plt.title('Bar Chart of Sector')
+plt.xlabel('Sector')
+plt.ylabel('Company')
+plt.show()
+                        ```
+                    
+2023-08-08 22:01:33 [INFO] 
+Code running:
+```
+fig, ax = plt.subplots()
+ax.bar(df['Sector'], df['Company'])
+plt.title('Bar Chart of Sector')
+plt.xlabel('Sector')
+plt.ylabel('Company')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:01:34 [INFO] generated new fontManager
+2023-08-08 22:01:35 [INFO] Answer: None
+2023-08-08 22:01:35 [INFO] Executed in: 5.288180112838745s
+2023-08-08 22:02:30 [INFO] Question: plot a bar chart of companies based off of sector
+2023-08-08 22:02:30 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:02:30 [INFO] Prompt ID: e50d80a3-e41f-4798-ad49-583288b608e5
+2023-08-08 22:02:31 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt
+
+df.groupby('Sector')['Company'].nunique().plot(kind='bar')
+plt.show()
+                        ```
+                    
+2023-08-08 22:02:31 [INFO] 
+Code running:
+```
+df.groupby('Sector')['Company'].nunique().plot(kind='bar')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:02:31 [INFO] Answer: None
+2023-08-08 22:02:31 [INFO] Executed in: 1.3482871055603027s
+2023-08-08 22:05:21 [INFO] Question: plot a bar chart based off of company sector
+2023-08-08 22:05:21 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:05:21 [INFO] Prompt ID: 30b90fcf-31fd-4507-9f40-4fa44c9f344c
+2023-08-08 22:05:24 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt
+
+plt.figure(figsize=(15,10))
+sns.countplot(df['Sector'])
+plt.title('Company Sector')
+plt.xlabel('Sector')
+plt.ylabel('Number of Companies')
+
+plt.show()
+                        ```
+                    
+2023-08-08 22:05:24 [INFO] Charts saving to: C:\Users\rishi\AppData\Roaming\Python\Python311\site-packages\exports\charts\30b90fcf-31fd-4507-9f40-4fa44c9f344c
+2023-08-08 22:05:24 [INFO] 
+Code running:
+```
+plt.figure(figsize=(15, 10))
+sns.countplot(df['Sector'])
+plt.title('Company Sector')
+plt.xlabel('Sector')
+plt.ylabel('Number of Companies')
+plt.savefig('C:\\Users\\rishi\\AppData\\Roaming\\Python\\Python311\\site-packages\\exports\\charts\\30b90fcf-31fd-4507-9f40-4fa44c9f344c\\chart.png')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:05:24 [WARNING] Error executing code (count: 0)
+2023-08-08 22:05:33 [INFO] Question: plot a bar chart 
+2023-08-08 22:05:33 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:05:33 [INFO] Prompt ID: 3e583617-5d35-4cee-a2ff-dfc839d31e73
+2023-08-08 22:05:34 [INFO] 
+                        Code generated:
+                        ```
+                        df.plot.bar(x='Company', y='Sector')
+                        ```
+                    
+2023-08-08 22:05:34 [INFO] 
+Code running:
+```
+df.plot.bar(x='Company', y='Sector')
+```
+2023-08-08 22:05:34 [WARNING] Error executing code (count: 0)
+2023-08-08 22:06:20 [INFO] Question: create bar chart 
+2023-08-08 22:06:20 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:06:20 [INFO] Prompt ID: 1d3c50b6-7591-48f1-a82a-8e6e9a8115fd
+2023-08-08 22:06:22 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt 
+
+plt.bar(df['Company'], df['Sector'])
+plt.xlabel('Company')
+plt.ylabel('Sector')
+plt.title('Company and Sector')
+plt.show()
+                        ```
+                    
+2023-08-08 22:06:22 [INFO] 
+Code running:
+```
+plt.bar(df['Company'], df['Sector'])
+plt.xlabel('Company')
+plt.ylabel('Sector')
+plt.title('Company and Sector')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:06:22 [INFO] Answer: None
+2023-08-08 22:06:22 [INFO] Executed in: 2.4020769596099854s
+2023-08-08 22:07:53 [INFO] Question: plot a bar chart
+2023-08-08 22:07:53 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:07:53 [INFO] Prompt ID: 3d352b85-306a-4ff1-9879-1382d366905e
+2023-08-08 22:07:54 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt
+
+df.groupby('Sector')['Company'].nunique().plot(kind='bar')
+plt.show()
+                        ```
+                    
+2023-08-08 22:07:54 [INFO] 
+Code running:
+```
+df.groupby('Sector')['Company'].nunique().plot(kind='bar')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:08:14 [INFO] Answer: None
+2023-08-08 22:08:14 [INFO] Executed in: 20.52169942855835s
+2023-08-08 22:08:53 [INFO] Question: plot a bar chart
+2023-08-08 22:08:53 [INFO] Running PandasAI with langchain_openai LLM...
+2023-08-08 22:08:53 [INFO] Prompt ID: 0d701808-f7d1-4241-8f40-567a7cd037ca
+2023-08-08 22:08:53 [INFO] Using cached response
+2023-08-08 22:08:53 [INFO] Charts saving to: C:\Users\rishi\AppData\Roaming\Python\Python311\site-packages\exports\charts\0d701808-f7d1-4241-8f40-567a7cd037ca
+2023-08-08 22:08:53 [INFO] 
+Code running:
+```
+df.groupby('Sector')['Company'].nunique().plot(kind='bar')
+plt.savefig('C:\\Users\\rishi\\AppData\\Roaming\\Python\\Python311\\site-packages\\exports\\charts\\0d701808-f7d1-4241-8f40-567a7cd037ca\\chart.png')
+plt.show()
+plt.close('all')
+```
+2023-08-08 22:08:56 [INFO] Answer: None
+2023-08-08 22:08:56 [INFO] Executed in: 3.0964388847351074s

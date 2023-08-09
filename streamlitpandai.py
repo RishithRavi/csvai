@@ -19,7 +19,10 @@ import os
 from langchain.llms import OpenAI
 from dotenv import load_dotenv, find_dotenv
 import langchain
-
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+# matplotlib.use( 'tkagg')
 
 
 def main():
